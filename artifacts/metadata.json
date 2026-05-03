@@ -1,0 +1,29 @@
+{
+  "splits": {
+    "train": {
+      "filas": 440018,
+      "fecha_min": "2017-12-02 00:00:00",
+      "fecha_max": "2018-04-08 23:59:55",
+      "fraud_rate": 0.035
+    },
+    "val": {
+      "filas": 58095,
+      "fecha_min": "2018-04-09 00:00:18",
+      "fecha_max": "2018-04-30 23:59:51",
+      "fraud_rate": 0.0352
+    },
+    "test": {
+      "filas": 92427,
+      "fecha_min": "2018-05-01 00:00:56",
+      "fecha_max": "2018-06-01 23:58:51",
+      "fraud_rate": 0.0348
+    }
+  },
+  "n_features": 424,
+  "n_cat_features": 29,
+  "n_num_features": 395,
+  "n_dropped_cols": 12,
+  "high_null_threshold": 0.9,
+  "train_end": "2018-04-08 23:59:59",
+  "val_end": "2018-04-30 23:59:59"
+}

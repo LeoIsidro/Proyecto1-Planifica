@@ -1,0 +1,61 @@
+{
+  "validation": {
+    "logistic_regression": {
+      "roc_auc": 0.8425,
+      "pr_auc": 0.349,
+      "f1": 0.2219,
+      "balanced_acc": 0.7617,
+      "precision": 0.1323,
+      "recall": 0.688,
+      "train_time_s": 86.5,
+      "best_iteration": NaN
+    },
+    "random_forest": {
+      "roc_auc": 0.8819,
+      "pr_auc": 0.4299,
+      "f1": 0.3759,
+      "balanced_acc": 0.7588,
+      "precision": 0.2802,
+      "recall": 0.5711,
+      "train_time_s": 37.1,
+      "best_iteration": NaN
+    },
+    "xgboost_gpu": {
+      "roc_auc": 0.9129,
+      "pr_auc": 0.5817,
+      "f1": 0.5785,
+      "balanced_acc": 0.7479,
+      "precision": 0.6776,
+      "recall": 0.5046,
+      "train_time_s": 75.1,
+      "best_iteration": 1995.0
+    }
+  },
+  "test": {
+    "logistic_regression": {
+      "roc_auc": 0.8223,
+      "pr_auc": 0.171,
+      "f1": 0.1872,
+      "balanced_acc": 0.7581,
+      "precision": 0.1072,
+      "recall": 0.7373
+    },
+    "random_forest": {
+      "roc_auc": 0.881,
+      "pr_auc": 0.4864,
+      "f1": 0.3597,
+      "balanced_acc": 0.7691,
+      "precision": 0.2566,
+      "recall": 0.601
+    },
+    "xgboost_gpu": {
+      "roc_auc": 0.8962,
+      "pr_auc": 0.5469,
+      "f1": 0.5422,
+      "balanced_acc": 0.7353,
+      "precision": 0.6209,
+      "recall": 0.4812
+    }
+  },
+  "best_iteration_xgb": 1995
+}

@@ -1,0 +1,32 @@
+{
+  "ks_test": {
+    "n_features_evaluadas": 30,
+    "n_con_drift": 21,
+    "ks_max": 0.1765804688586471,
+    "feature_top": "V326"
+  },
+  "chi_squared": {
+    "n_features_evaluadas": 15,
+    "n_con_drift": 15
+  },
+  "psi": {
+    "psi_promedio": 0.008901482286726775,
+    "psi_max": 0.030449514041140352,
+    "n_features_significativas": 0
+  },
+  "prediction_drift": {
+    "ks_stat": 0.06547728978004264,
+    "p_value": 2.7493606186262802e-160
+  },
+  "adaptive_vs_static": {
+    "estatica_roc_auc_promedio": 0.8967047972764846,
+    "adaptativa_roc_auc_promedio": 0.9255629630150295,
+    "delta_roc_auc": 0.02885816573854494,
+    "estatica_pr_auc_promedio": 0.5474561192910322,
+    "adaptativa_pr_auc_promedio": 0.6111603852711596,
+    "delta_pr_auc": 0.06370426598012735
+  },
+  "trigger_weeks_recommend_retrain": [
+    "2018-05-14"
+  ]
+}
